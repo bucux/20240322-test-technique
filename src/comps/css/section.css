@@ -1,0 +1,23 @@
+
+
+.section-cont0 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  height: 600px;
+  width: 450px;
+}
+
+.section-cont0 img{
+  height: 250px;
+  width: 200px;
+}
+
+h1{
+  font-size: 40px;
+}
+
+h2{
+  font-size: 40px;
+}
