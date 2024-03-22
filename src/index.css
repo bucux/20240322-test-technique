@@ -1,11 +1,8 @@
 
 
-.img{
-  object-fit: contain;
-}
+
 
 * {
   box-sizing: border-box;
   color: white;
 }
-

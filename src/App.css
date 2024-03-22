@@ -1,12 +1,44 @@
 
 
 .app-cont0{
+  position: relative;
+}
+
+.app-cont1{
+  z-index: -1;
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+}
+
+.app-cont2{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
   gap: 100px;  
-  height: 100vh;
-  width: 100vh;
+  position: relative;
+  margin: 0;
 }
 
+.affiche{
+  height: 100vh;
+  object-fit: contain;
+}
+
+@keyframes grossir {
+  0%, 100% {
+    transform: scale(1); 
+  }
+  50% {
+    transform: scale(4); 
+  }
+}
+
+.caca {
+  font-size: 50px;
+  animation: grossir 1s infinite ease-in-out;
+}

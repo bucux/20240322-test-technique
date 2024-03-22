@@ -1,0 +1,21 @@
+
+.perso-cont0{
+  position: relative;
+}
+
+h2{
+  font-size: 25px;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  width: 110px;
+  top: 100px;
+  left: 15px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
